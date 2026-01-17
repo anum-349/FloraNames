@@ -1,0 +1,132 @@
+
+        <ScrollView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginBottom="10dp">
+
+        <!-- Page Title -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Islamic Naming Guidelines"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="@color/teal_700"
+            android:gravity="center"
+            android:layout_marginBottom="22dp"/>
+
+        <!-- Names Approved (Sunnah / Quranic) -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/card"
+            android:padding="16dp"
+            android:orientation="vertical"
+            android:layout_marginBottom="16dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Names Approved (Sunnah and Quranic)"
+                android:textColor="@color/colorTextPrimary"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:layout_marginBottom="8dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="• Muhammad\n• Abdullah\n• Aisha\n• Fatima\n• Ibrahim"
+                android:textColor="@color/colorTextSecondary"
+                android:textSize="15sp"/>
+        </LinearLayout>
+
+        <!-- Names with Good Meaning -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/card"
+            android:padding="16dp"
+            android:orientation="vertical"
+            android:layout_marginBottom="16dp">
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Names With Good Meaning"
+                android:textColor="@color/colorTextPrimary"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:layout_marginBottom="8dp"/>
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="• Ayaan – Gift of God\n• Zayn – Beauty and Grace\n• Noor – Light\n• Haleema – Gentle and Patient"
+                android:textColor="@color/colorTextSecondary"
+                android:textSize="15sp"/>
+        </LinearLayout>
+
+        <!-- Names To Avoid -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/card"
+            android:padding="16dp"
+            android:orientation="vertical"
+            android:layout_marginBottom="16dp">
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Names To Avoid"
+                android:textColor="@color/colorTextPrimary"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:layout_marginBottom="8dp"/>
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="• Names with negative meanings\n• Names implying arrogance\n• Names used for idols\n• Names implying only Allah’s attributes (without 'Abd')"
+                android:textColor="@color/colorTextSecondary"
+                android:textSize="15sp"/>
+        </LinearLayout>
+
+        <!-- Hadith References Section -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/card"
+            android:padding="16dp"
+            android:orientation="vertical"
+            android:layout_marginBottom="20dp">
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="Hadith References"
+                android:textColor="@color/colorTextPrimary"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:layout_marginBottom="8dp"/>
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="• “The most beloved names to Allah are Abdullah and Abdur-Rahman.” — Sahih Muslim\n\n• “Change bad names to good ones.” — Sahih Muslim\n\n• “Name your children after the Prophets.” — Sunan Abi Dawood"
+                android:textColor="@color/colorTextSecondary"
+                android:textSize="15sp"/>
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

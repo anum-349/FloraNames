@@ -1,0 +1,334 @@
+        <ScrollView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    android:scrollbarStyle="outsideOverlay"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingRight="6dp">
+
+        <!-- Name Header -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:padding="12dp">
+
+            <TextView
+                android:id="@+id/tvName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ayaan"
+                android:textColor="@color/teal_700"
+                android:textSize="32sp"
+                android:textStyle="bold" />
+
+            <ImageButton
+                android:id="@+id/btnFavorite"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:scaleType="fitCenter"
+                android:padding="5dp"
+                android:background="@drawable/circle_bg"
+                android:src="@drawable/ic_favourite" />
+
+        </LinearLayout>
+
+
+        <!-- Arabic Name Card -->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/card"
+            android:padding="16dp"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Arabic"
+                android:textStyle="bold"
+                android:textColor="@color/colorTextPrimary"
+                android:textSize="16sp"
+                android:layout_alignParentLeft="true"
+                android:layout_centerInParent="true"/>
+
+            <TextView
+                android:id="@+id/tvArabicName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="28sp"
+                android:layout_centerInParent="true"
+                android:layout_alignParentRight="true"
+                android:textColor="@color/colorTextSecondary"/>
+        </RelativeLayout>
+
+
+        <!-- Meaning Card -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/card"
+            android:padding="16dp"
+            android:layout_marginTop="14dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:text="Meaning"
+                android:textStyle="bold"
+                android:textColor="@color/colorTextPrimary"
+                android:textSize="18sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/tvMeaningEng"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorTextSecondary"
+                android:textSize="16sp"
+                android:layout_marginTop="6dp"/>
+
+            <TextView
+                android:id="@+id/tvMeaningUrdu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorTextSecondary"
+                android:textSize="16sp"
+                android:layout_marginTop="4dp"/>
+
+        </LinearLayout>
+
+
+        <!-- Pronunciation -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/card"
+            android:padding="16dp"
+            android:layout_marginTop="14dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Pronunciation"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/colorTextPrimary"/>
+
+            <ImageButton
+                android:id="@+id/btnPlayAudio"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:scaleType="fitCenter"
+                android:background="@drawable/button_play_audio_bg"
+                android:src="@drawable/ic_play"/>
+        </LinearLayout>
+
+
+        <!-- Origin & Quranic Reference -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/card"
+            android:padding="16dp"
+            android:layout_marginTop="14dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:text="Origin and Quranic Reference"
+                android:textStyle="bold"
+                android:textColor="@color/colorTextPrimary"
+                android:textSize="18sp"
+                android:layout_width="wrap_content"/>
+
+            <TextView
+                android:id="@+id/tvOrigin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:textColor="@color/colorTextSecondary"/>
+
+            <TextView
+                android:id="@+id/tvQuranRef"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:textColor="@color/colorTextSecondary"/>
+
+        </LinearLayout>
+
+
+        <!-- Numerology & Traits -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/card"
+            android:padding="16dp"
+            android:layout_marginTop="14dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:text="Numerology Details"
+                android:textStyle="bold"
+                android:textColor="@color/colorTextPrimary"
+                android:textSize="18sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/tvTraits"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:lineSpacingExtra="4dp"/>
+
+        </LinearLayout>
+
+
+        <!-- Strength & Weakness -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/card"
+            android:padding="16dp"
+            android:layout_marginTop="14dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:text="Strength and Weakness"
+                android:textStyle="bold"
+                android:textColor="@color/colorTextPrimary"
+                android:textSize="18sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/tvStrength"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorTextSecondary"
+                android:layout_marginTop="6dp"/>
+
+            <TextView
+                android:id="@+id/tvWeakness"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorTextSecondary"
+                android:layout_marginTop="4dp"/>
+
+        </LinearLayout>
+
+        <!-- Career & Relationships -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/card"
+            android:padding="16dp"
+            android:layout_marginTop="14dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:text="Career and Relationships"
+                android:textStyle="bold"
+                android:textColor="@color/colorTextPrimary"
+                android:textSize="18sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/tvCareer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorTextSecondary"
+                android:layout_marginTop="6dp"/>
+
+            <TextView
+                android:id="@+id/tvRelationship"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorTextSecondary"
+                android:layout_marginTop="4dp"/>
+
+        </LinearLayout>
+        <!-- Spiritual Message -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/card"
+            android:padding="16dp"
+            android:layout_marginTop="14dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:text="Spiritual Message"
+                android:textStyle="bold"
+                android:textColor="@color/colorTextPrimary"
+                android:textSize="18sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:id="@+id/tvSpiritualMessage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorTextSecondary"
+                android:layout_marginTop="6dp"/>
+
+        </LinearLayout>
+
+        <!-- Lucky attributes -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/card"
+            android:padding="16dp"
+            android:layout_marginTop="14dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:text="Lucky Attributes"
+                android:textStyle="bold"
+                android:textColor="@color/colorTextPrimary"
+                android:textSize="18sp"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"/>
+
+            <TextView
+                android:id="@+id/tvLuckyColor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorTextSecondary"
+                android:text="Color: Green"
+                android:layout_marginTop="6dp"/>
+
+            <TextView
+                android:id="@+id/tvLuckyDay"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorTextSecondary"
+                android:layout_marginTop="3dp"/>
+
+            <TextView
+                android:id="@+id/tvLuckyStone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorTextSecondary"
+                android:layout_marginTop="3dp"/>
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

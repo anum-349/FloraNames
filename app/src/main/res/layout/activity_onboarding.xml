@@ -1,0 +1,96 @@
+<RelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingHorizontal="16dp"
+    android:paddingBottom="30dp"
+    android:background="@color/colorBackground">
+
+    <!-- Onboard Image -->
+    <ImageView
+        android:id="@+id/onboardImage"
+        android:layout_width="match_parent"
+        android:layout_height="420dp"
+        android:src="@drawable/bg1"
+        android:layout_centerHorizontal="true"
+        android:scaleType="fitCenter"
+        android:adjustViewBounds="true"
+        android:clipToOutline="true"/>
+
+    <!-- Welcome Title -->
+    <TextView
+        android:id="@+id/welcomeTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/onboardImage"
+        android:layout_marginTop="24dp"
+        android:text="Welcome, to Velora Baby"
+        android:textAlignment="center"
+        android:textColor="#0094d9"
+        android:textSize="32sp"
+        android:textStyle="bold" />
+
+    <!-- Onboard Subtitle -->
+    <TextView
+        android:id="@+id/onboardTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/welcomeTitle"
+        android:layout_marginTop="8dp"
+        android:text="Find the Name That Fits"
+        android:textAlignment="center"
+        android:textColor="@color/teal_700"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <!-- Onboard Description -->
+    <TextView
+        android:id="@+id/onboardDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/onboardTitle"
+        android:layout_marginTop="8dp"
+        android:text="Discover meaningful names with their meanings and pronunciations."
+        android:textAlignment="center"
+        android:textColor="@color/colorTextPrimary"
+        android:textSize="16sp" />
+
+    <!-- Skip Button -->
+    <TextView
+        android:id="@+id/btnSkip"
+        android:layout_width="120dp"
+        android:layout_height="48dp"
+        android:text="Skip"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:padding="8dp"
+        android:textStyle="bold"
+        android:clickable="true"
+        android:focusable="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:background="@drawable/button"
+        android:backgroundTint="#ec3b95"/>
+
+    <!-- Next Button -->
+    <TextView
+        android:id="@+id/btnNext"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:layout_toEndOf="@id/btnSkip"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="8dp"
+        android:layout_alignParentEnd="true"
+        android:gravity="center"
+        android:text="Next"
+        android:textAllCaps="false"
+        android:textSize="22sp"
+        android:textColor="@color/white"
+        android:background="@drawable/button"
+        android:backgroundTint="#0094d9"
+        android:elevation="10dp"
+        android:clickable="true"
+        android:focusable="true"/>
+</RelativeLayout>

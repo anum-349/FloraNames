@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- System -->
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="lightPink">#E3F2FD</color>
+
+    <color name="blue">#EC3B95</color>
+
+    <color name="light_blue">#F4E0EA</color>
+
+    <color name="pink">#0094D9</color>
+
+    <color name="colorBackground">#EAF4FF</color>
+    <color name="colorCard">#D6E9F8</color>
+    <color name="colorAccent">#9FC9E8</color>
+    <color name="colorPrimary">#B3D7F2</color>
+
+    <color name="colorTextPrimary">#101010</color>
+    <color name="colorTextSecondary">#4A4A4A</color>
+
+</resources>

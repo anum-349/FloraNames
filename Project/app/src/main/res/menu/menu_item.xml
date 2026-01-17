@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_tips"
+        android:title="Naming Tips"
+        android:icon="@drawable/ic_tips"/>
+
+    <item
+        android:id="@+id/nav_islamic_guides"
+        android:title="Islamic Guides"
+        android:icon="@drawable/ic_islamic_guides"/>
+
+    <item
+        android:id="@+id/nav_favorites"
+        android:title="Favorites"
+        android:icon="@drawable/ic_favourite_filled"/>
+
+    <item
+        android:id="@+id/nav_settings"
+        android:title="Settings"
+        android:icon="@drawable/ic_settings"/>
+
+    <item
+        android:id="@+id/nav_about"
+        android:title="About App"
+        android:icon="@drawable/ic_info"/>
+
+    <item
+        android:id="@+id/numerology_about"
+        android:title="Numerology Details"
+        android:icon="@drawable/ic_numerology"/>
+
+
+</menu>

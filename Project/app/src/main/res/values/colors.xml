@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="lightPink">#f4e0ea</color>
+    <color name="blue">#0094d9</color>
+    <color name="light_blue">#54C5FA</color>
+    <color name="pink">#ec3b95</color>
+    <color name="colorBackground">#fedde4</color>
+    <color name="colorCard">#edc0cf</color>
+    <color name="colorAccent">#de94af</color>
+    <color name="colorPrimary">#e2a1b8</color>
+    <color name="colorTextPrimary">#101010</color>
+    <color name="colorTextSecondary">#4a4a4a</color>
+</resources>

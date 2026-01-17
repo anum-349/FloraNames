@@ -1,0 +1,39 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@color/colorBackground">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="About Baby Naming App"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="@color/teal_700"
+            android:paddingBottom="12dp"
+            android:layout_marginBottom="12dp" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp"
+            android:background="@drawable/card">
+
+            <TextView
+                android:id="@+id/tvAboutDesc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:textColor="@color/colorTextSecondary"
+                android:text="This app helps parents find meaningful, modern, and unique baby names. You can explore names by category, check meanings, combine parent names for unique results, generate numberology, save favorites, and more.\n\nOur goal is to make the baby-naming process simple, fun, and meaningful."
+                android:lineSpacingExtra="6dp" />
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
